@@ -1,10 +1,11 @@
 {
   "name": "autofold-md-frontmatter",
-  "displayName": "auto-fold-yaml-front-matter-in-md",
+  "displayName": "Auto Fold YAML Front Matter in Markdown",
   "description": "This extension automatically folds the YAML front matter in markdown files. That's it.",
-  "version": "0.0.1",
+  "version": "1.0.3",
+  "publisher": "TommiSaltiola",
   "engines": {
-    "vscode": "^1.87.0"
+    "vscode": ">=1.40.0"
   },
   "categories": [
     "Other"
@@ -13,7 +14,12 @@
     "onLanguage:markdown"
   ],
   "main": "./extension.js",
+  "icon": "./md-yaml-fold.jpg",
   "contributes": {
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Saltiola7/auto-fold-yaml-front-matter-in-md.git"
   },
   "scripts": {
     "lint": "eslint .",
